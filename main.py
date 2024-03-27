@@ -42,7 +42,7 @@ if __name__ == "__main__":#main function start here
             
             while True :
                 query = takeCommand().lower()# using this the syatem will listen but will not responde
-                if"so ja bhosdi ke"   in query:
+                if"sleep"   in query:
                     speak ("OK sir , you can call me anytime")
                     break
             #this is the talk that the program is going to do with us  we can add as many conversation as we want      
